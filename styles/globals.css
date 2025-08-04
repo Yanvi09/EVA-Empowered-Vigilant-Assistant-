@@ -4,7 +4,9 @@
   --secondary: #1F1F1F; /* Charcoal Black */
   --background: #F7F5FA; /* Soft Lavender */
   --cta-highlight: #C5A86A; /* Gold */
+  --cta-highlight-hover: #5A1BBF;
 }
+
 
 body {
   font-family: 'Inter', sans-serif;
@@ -26,4 +28,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .neumorphic:hover {
   box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.2), -12px -12px 24px rgba(255, 255, 255, 0.9);
+}
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 100px;
+  padding: 80px 0;
 }
